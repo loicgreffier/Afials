@@ -1,0 +1,338 @@
+#blanket6{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterNotes, #modifierNotes{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+/** FONCTIONNALITES **/
+#parametresGestionNotes{
+	width: 100%;
+	text-align: right;
+}
+
+#parametresGestionNotes ul li{
+	display: inline-block;
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+}
+
+#parametresGestionNotes ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+}
+
+#parametresGestionNotes ul li:hover{
+	background: #71FF71;
+}
+
+#parametresGestionNotes #titreGestionNotes{
+	float: left;
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.5em;
+}
+
+/** FONCTIONNALITES 2 **/
+#parametresGestionNotes2{
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 5px;
+}
+
+#parametresGestionNotes2 ul li{
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #004400;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+}
+
+#parametresGestionNotes2 ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+	font-size: 0.90em;
+	padding: 3px 10px;
+}
+
+#parametresGestionNotes2 ul li:hover{
+	background: #71FF71;
+}
+
+#parametresGestionNotes2 ul #modifierNote{
+	background: none;
+	border-radius: none;
+	border: initial;
+}
+
+/** FORMATION EVALUEE **/
+#notesEleves{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#listeFormationsEvaluees{
+	border: 1px solid #004400;
+	width: 25%;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+#titreFormationsEvaluees{
+	text-align: center;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.4em;
+}
+
+#tableauFormationsEvaluees{
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+	margin-top: -15px;
+}
+
+.nomFormationEvaluee{
+	height: 20px;
+}
+
+.nomFormationEvaluee a{
+	text-decoration: none;
+	color: #004400;
+	font-family: Days;
+	font-size: 1.4em;
+}
+
+.nomFormationEvaluee a:hover{
+	color: #71FF71;
+}
+
+#noFormationEvaluee{
+	font-family: Days;
+	text-align: center;
+}
+
+/** DEVOIRS **/
+#listeDevoirs{
+	display: inline-block;
+	border: 1px solid #004400;
+	width: 23.6%;
+	margin-left: 5px;
+	overflow: hidden;
+	vertical-align: top;
+}
+	
+#titreDevoirs{
+	text-align: center;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.4em;
+}
+
+
+#tableauDevoirs{
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+	margin-top: -15px;
+	width: 100%;
+}
+
+.nomDevoirs{
+	height: 20px;
+	width: 100%;
+}
+
+.nomDevoirs a{
+	text-decoration: none;
+	color: #004400;
+	font-family: Days;
+	font-size: 1.4em;
+}
+
+.nomDevoirs a:hover{
+	color: #71FF71;
+}
+
+.suppDevoir{
+	float: right;
+}
+
+.nbPages{
+	width: 20%;
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+}
+
+.nbPages a{
+	text-decoration: none;
+	color: #004400;
+}
+
+.nbPages a:hover{
+	text-decoration: none;
+	color: #71FF71;
+}
+
+#noDevoirs{
+	font-family: Days;
+	text-align: center;
+}
+
+.coloreeSpan{
+	color: #71FF71;
+}
+
+/** NOTES **/
+#listeNotes{
+	display: inline-block;
+	border: 1px solid #004400;
+	width: 50%;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+#titreListeNotes{
+	text-align: left;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.4em;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#listeTableauxEleves{
+	text-align: center;
+	width: auto;
+}
+
+.tableauElevesNotes{
+	font-family: Days;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	text-align: center;
+}
+
+.nomEleveNotes{
+	height: 20px;
+	color: #004400;
+	width: 500px;
+}
+
+#noNotes{
+	font-family: Days;
+	text-align: center;
+}
+
+#moyenne{
+	font-family: Days;
+	text-align: center;
+	font-size: 1.1em;
+	color: #004400;
+}
+
+/** AJOUTER NOTE **/
+#formulaireAjoutNotes{
+	text-align: center;
+	margin-top: -30px;
+}
+
+#formulaireAjoutNotes tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutNotes{
+	margin: auto;
+}
+
+#tableauAjoutNotes .titreAjoutNotes{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+
+#Notes{
+	width: auto;
+	margin: 5px;
+	padding-top: 10px;
+	border: solid 1px #71FF71;
+}
+
+.inputNote{
+	width: 30px;
+}
+
+.labelAjoutNote{
+	padding-top: 10px;
+}
+
+.noteCourte{
+	width: 20px;
+}
+
+.informationNoteMax{
+	position: relative;
+	left: 6px;
+	top: 2px;
+}
+
+.boutonAjouterNote{
+	margin-top: 10px;
+	width: 100px;
+}
+
+.tableauNotes{
+	font-family: Days;
+	display: inline-block;
+	width: 39%;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 30px;
+}
+
+.nomEleveNotes{
+	height: 20px;
+	color: #004400;
+	width: 500px;
+}
+
+.messageErreurAjoutClasse{
+	color: #FF4B4B;
+}
+
+

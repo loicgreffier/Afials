@@ -1,0 +1,51 @@
+#connexion{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#formulaireConnexion{
+	background-image: url("../../Images/Backgrounds/backgroundConnexion2.jpg");
+	height: 500px;
+	width: 460px;
+	box-shadow: 2px 2px 4px 0px black;
+	margin: 20px auto;
+	text-align: center;
+	
+}
+
+#tableConnexion{
+	margin: 0 auto;
+	padding-top: 140px;
+}
+
+#tableBouttons{
+	margin: auto;
+	padding-top: 50px;
+}
+
+#tableBouttons input{
+	width: 100px;
+}
+
+#tableauErreursConnexion{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+
+.label{
+	color: #00001D;
+	font-family: Days;
+}
+
+.messageErreurConnexion{
+	color: #00001D;
+	font-size: 1.9em;
+	font-family: Days;
+}
+
+
+
+

@@ -1,0 +1,194 @@
+#enteteSite{
+	
+	width: 100%;
+	background: white;
+	height: 150px;
+}
+
+header{
+	background: white;
+	height: 112px;
+	overflow: hidden;
+}
+
+header .titre{
+	text-align: center;
+}
+
+header .titre a{
+	text-decoration: none;
+	color: #00001D;
+	letter-spacing: 5px;
+	font-size: 3.5em; 
+	background: transparent;
+	font-family: Days;
+	text-shadow: 0 1px 0 #ccc, 
+		 0 2px 0 #c9c9c9,
+		 0 3px 0 #bbb,
+		 0 4px 0 #b9b9b9,
+		 0 5px 0 #aaa,
+		 0 6px 1px rgba(0,0,0,.1),
+		 0 0 5px rgba(0,0,0,.1),
+		 0 1px 3px rgba(0,0,0,.3),
+		 0 3px 5px rgba(0,0,0,.2),
+		 0 5px 10px rgba(0,0,0,.25),
+		 0 20px 20px rgba(0,0,0,.15);
+}
+
+header .titre p{
+	color: #00001D;
+	font-size: 1.3em; 
+	background: transparent;
+	margin-top: -7px;
+	font-family: Days;
+	text-shadow: 0 1px 0 #ccc, 
+		 0 2px 0 #c9c9c9,
+		 0 3px 0 #bbb,
+		 0 4px 0 #b9b9b9,
+		 0 5px 0 #aaa,
+		 0 6px 1px rgba(0,0,0,.1),
+		 0 0 5px rgba(0,0,0,.1),
+		 0 1px 3px rgba(0,0,0,.3),
+		 0 3px 5px rgba(0,0,0,.2),
+		 0 5px 10px rgba(0,0,0,.25),
+		 0 20px 20px rgba(0,0,0,.15);
+}
+
+.barreNavigation{
+	background: linear-gradient(to bottom, #00003F 0%, #00001D 100%);
+	height: 33px;
+}
+
+.barreNavigation .navigation{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: inherit;
+}
+
+.barreNavigation .navigation .bouttonNav{
+	display: inline-block;
+	font-size: 1.2em;
+	height: inherit;
+}
+
+.barreNavigation .navigation .bouttonNav:hover{
+	background: #5E5EFF;
+}
+
+
+.barreNavigation .navigation .bouttonNav ul{
+	z-index: 5000;
+}
+
+.barreNavigation .navigation .bouttonNav a{
+	text-decoration: none;
+	font-size:1.3em;
+	font-family: Days;
+	padding: 0 20px;
+	color: white;
+}
+
+.navigation li ul{
+	text-align: left;
+	position:absolute;
+	max-height:0;
+	margin: auto;
+	padding: 0;
+	overflow:hidden;
+	-moz-transition: .2s all .2s;
+	-webkit-transition: .2s all .2s;
+	transition: .2s all .2s;
+	background: #000022;
+	width: auto;
+}
+
+.navigation li:hover ul{
+	max-height:15em;
+}
+
+.navigation li ul:last-child{
+	border-radius: 0 0 10px 10px;
+}
+
+.navigation li ul li:hover{
+	background: #5E5EFF;
+}
+
+/** Gestion **/
+.navigation li ul .bouttonGestion{
+	min-width: 300px;
+	font-size: 0.7em;
+}
+
+.navigation li ul .bouttonGestion:first-child{
+	border-top: solid;
+	border-width: 1px;
+}
+
+/** Forums **/
+.navigation li ul .nomForums{
+	min-width: 90%;
+	width: auto;
+}
+
+.navigation li ul div:first-child{
+	border-top: solid;
+	border-width: 1px;
+}
+
+.navigation li ul .forums li{
+	display: inline-block;
+	font-size: 0.7em;
+	padding: 5px 0;
+	text-shadow: initial;
+}
+
+#bouttonConnexion, #bouttonDeconnexion, #bouttonMonCompte{
+	float: right;
+}
+
+/*********************CLAPETS****************/
+.padsGauche{ 
+	float:left;
+}
+
+.padsDroite{
+	float:right;
+}
+
+.haut {
+	width: 50px;
+	float:inherit;
+	height: 114px;
+	background: white;
+	transition:0.4s ease 0ms;
+	-moz-transition: height 0.4s ease 0ms;
+	-webkit-transition: all 0.4s ease 0ms;
+	-o-transition: height 0.4s ease 0ms;
+	opacity: 1;
+	transform-origin: 50% 0;	
+}
+
+.haut:hover{
+	transform:skewX(15deg) rotateX(65deg);
+	opacity:1.0;
+}
+
+.bas{
+width: 50px;
+float:inherit;
+height: 114px;
+background: white;
+transition:0.4s ease 0ms;
+-moz-transition: height 0.4s ease 0ms;
+-webkit-transition: all 0.4s ease 0ms;
+-o-transition: height 0.4s ease 0ms;
+opacity: 1;
+transform-origin:50% 100%;
+}
+
+.bas:hover{
+	transform:skewX(15deg) rotateX(65deg);
+	opacity:1.0;
+}

@@ -1,0 +1,66 @@
+#demandeInscription{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#annonceInscription{
+	font-family: Days;
+	color: #A60000;
+	font-size: 1.1em;
+}
+
+#formulaireDemandeInscription{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.demanderInscription{
+	margin: auto;
+	border: 1px solid #FF6767;
+	padding: 15px;
+	background: #A60000;
+}
+
+.demanderInscription label{
+	font-size: 1.1em;
+	color: white;
+	font-family: Days;
+}
+
+.demanderInscription tr td{
+	padding: 5px 0;
+}
+
+.demanderInscription tr td input{
+	width: 250px;
+}
+
+.demanderInscription .titreInscription{
+	color: #FF6767;
+	font-size: 1.4em;
+}
+
+#bouttonSoumission{
+	padding-top: 20px;
+}
+
+#tableauErreursDemande{
+	margin: auto;
+	text-align: center;
+}
+
+.messageErreurDemande{
+	color: #FF4B4B;
+	font-size: 1.1em;
+	font-family: Days;
+}
+
+#demandeenvoyee{
+	color: #FF4B4B;
+	font-size: 1.1em;
+	font-family: Days;
+	text-align: center;
+}

@@ -1,0 +1,273 @@
+#blanket8{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterAvis{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+#avisFormations{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#listeEnseignantsAvis{
+	display: inline-block;
+	border: 1px solid #004400;
+	width: 19%;
+	margin-left: 5px;
+}
+
+#titreListeEnseignantsAvis{
+	text-align: center;
+	font-family: Days;
+	color: #004400;
+}
+
+#tableauEnseignantsAvis{
+	text-align: center;
+	width: 100%;
+	font-family: Days;
+	font-size: 1.4em;
+	overflow: hidden;
+}
+
+#tableauEnseignantsAvis tr td {
+	overflow: hidden;
+}
+
+#tableauEnseignantsAvis a{
+	text-decoration: none;
+	color: #004400;
+	overflow: hidden;
+}
+
+#tableauEnseignantsAvis a:hover{
+	color: #71FF71;
+}
+
+#nbPagesEnseignantAvis{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+	padding-top: 5px;
+}
+
+#nbPagesEnseignantAvis a{
+	text-decoration: none;
+	color: #004400;
+}
+
+#nbPagesEnseignantAvis a:hover{
+	text-decoration: none;
+	color: #71FF71;
+}
+
+#presentationFormationsAvis{
+	margin-right: 5px;
+	width: 80%;
+	display: inline-block;
+	float: right;
+}
+
+#tableauFormationsAvis{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+	border: 1px solid #004400;
+	margin-bottom: 5px;
+	vertical-align: top;
+}
+
+#nomFormationAvis{
+	height: 20px;
+	font-size: 1.9em;
+	color: #004400;
+}
+
+#labelTypeFormationAvis{
+	font-size: 1.1em;
+	color: #004400;
+	height: 30px;
+	width: 50%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#typeFormationAvis{
+	font-size: 1.1em;
+	text-align: left;
+	padding-left: 10px;
+}
+
+#descriptifAvis{
+	text-align: justify;
+	color: #004400;
+}
+
+.evaluation .evalNote{
+	display: inline-block;
+	color: #aaa;
+	font-size: 2.4em;
+	margin: 0;
+	padding: 0;
+}
+
+.evaluation{
+	text-align: right;
+}
+
+.coloration{
+	color: #71FF71;
+}
+
+#listeAvisTitre #listeAvis{
+	color: #004400;
+	font-size: 1.8em;
+	text-align: center;
+	font-family: Days;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#listeAvisTitre{
+	text-align: center;
+}
+
+.ajouterAvis{
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+	color: white;
+	font-size: initial;
+	display: inline-block;
+	font-family: Days;
+	margin-left: 15px;
+	position: relative;
+	bottom: 2px;
+}
+
+.ajouterAvis:hover{
+	background: #71FF71;
+}
+
+.ajouterAvis a{
+	background: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+
+#avisDe{
+	font-family: Days;
+	color: #004400;
+	font-size: 1.3em;
+	vertical-align: top;
+}
+
+.tableauAvis{
+	border: 1px solid #004400;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.evaluation .titreEvalNote{
+	font-family: Days;
+	color: #004400;
+	margin: 0;
+	margin-right: 83px;
+	padding: 0;
+}
+
+.commentairePersonne{
+	font-family: Days;
+	color: #004400;
+}
+
+#noAvis{
+	text-align: center;
+	font-family: Days;
+	font-size: 2em;
+	color: #004400;
+	display: inline-block;
+}
+
+#divNoAvis{
+	width: 100%;
+	text-align: center;
+}
+
+/** FORMULAIRE AJOUT AVIS **/
+#formulaireAjoutAvis{
+	text-align: center;
+	margin: auto;
+}
+
+#formulaireAjoutAvis table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutAvis{
+	margin: auto;
+}
+
+#tableauAjoutAvis .titreAjoutAvis{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#formulaireAjoutAvis table tr td textarea{
+	width: 580px;
+	max-width: 580px;
+	min-width: 580px;
+	height: 150px;
+	min-height: 150px;
+	max-height: 150px;
+}
+
+#ajouterAvisButton input{
+	width: 150px;
+}
+
+.messageErreurAjoutAvis{
+	color: #FF4B4B;
+}
+
+.ajouterEtoile{
+	direction: rtl;
+}
+
+.ajouterEtoile a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+   margin: auto;
+   padding: 0;
+}
+
+.ajouterEtoile a:hover, .ajouterEtoile a:hover ~ a {
+   color: yellow;
+}

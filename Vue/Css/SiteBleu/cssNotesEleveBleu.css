@@ -1,0 +1,157 @@
+#mesNotes{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+/** MES FORMATIONS EVALUEES **/
+#mesFormationsEvaluees{
+	border: 1px solid #00001D;
+	width: 30%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#titreMesFormationsEvaluees{
+	text-align: center;
+	font-family: Days;
+	color: #00001D;
+	font-size: 1.4em;
+}
+
+#tableauMesFormationsEvaluees{
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+	margin-top: -15px;
+}
+
+.nomMesFormationEvaluee{
+	height: 20px;
+}
+
+.nomMesFormationEvaluee a{
+	text-decoration: none;
+	color: #00001D;
+	font-family: Days;
+	font-size: 1.4em;
+}
+
+.nomMesFormationEvaluee a:hover{
+	color: #5E5EFF;
+}
+
+#noMesFormationEvaluee{
+	font-family: Days;
+	text-align: center;
+}
+
+/** DEVOIRS & NOTES **/
+#listeMesDevoirs{
+	display: inline-block;
+	border: 1px solid #00001D;
+	width: 69%;
+	margin-left: 5px;
+	overflow: hidden;
+	vertical-align: top;
+}
+	
+#titreMesDevoirs{
+	text-align: center;
+	font-family: Days;
+	color: #00001D;
+	font-size: 1.4em;
+}
+
+.tableauNotesDevoirs{
+	width: 100%;
+	
+}
+
+.enteteMesNotes{
+	color: #00001D;
+	font-size: 1.3em;
+	font-family: Days;
+	text-align: center;
+}
+
+#nomDevoirMesNotes{
+	width: 50%;
+	color: #5E5EFF;
+}
+
+#dateDevoirMesNotes{
+	width: 35%;
+	color: #5E5EFF;
+}
+
+#noteDevoirMesNotes{
+	width: 14%;
+	color: #5E5EFF;
+}
+
+#coeffDevoirMesNotes{
+	color: #5E5EFF;
+}
+
+.valeurMesNotesNom{
+	color: #5E5EFF;
+	font-size: 1.2em;
+	font-family: Days;
+	text-align: center;
+	width: 48.75%;
+	border: solid;
+}
+
+.valeurMesNotesDate{
+	color: #5E5EFF;
+	font-size: 1.2em;
+	font-family: Days;
+	text-align: center;
+	width: 31.2%;
+	border: solid;
+}
+
+.valeurMesNotesNote{
+	color: #5E5EFF;
+	font-size: 1.2em;
+	font-family: Days;
+	text-align: center;
+	width: 10%;
+	border: solid;
+}
+
+.valeurMesNotesCoeff{
+	color: #5E5EFF;
+	font-size: 1.2em;
+	font-family: Days;
+	text-align: center;
+	border: solid;
+}
+
+.moyenneFormation{
+	text-align: center;
+	padding-top: 25px;
+	color: #00001D;
+	font-size: 1.2em;
+	font-family: Days;
+}
+
+/** TITRE **/
+#parametresEleves{
+	width: 100%;
+}
+
+#parametresEleves #titreEleves{
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #00001D;
+	font-size: 1.5em;
+	list-style: none;
+}
+
+.coloration{
+	color: #5E5EFF;
+}

@@ -1,0 +1,142 @@
+#blanket10{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#modifierMdp, #modifierInformations{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background:#004400;
+	display: block;
+}
+
+#monCompte{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#parametresMonCompte{
+	width: 100%;
+	text-align: right;
+}
+
+#parametresMonCompte ul li{
+	display: inline-block;
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+}
+
+#parametresMonCompte ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+}
+
+#parametresMonCompte ul li:hover{
+	background: #71FF71;
+}
+
+#parametresMonCompte #titreMonCompte{
+	float: left;
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.5em;
+}
+
+.labelTableauDesInformations{
+	font-family: Days;
+	color: #004400;
+	font-size: 1.5em;
+}
+
+.varTableauDesInformations{
+	font-family: Days;
+	color: #71FF71;
+	font-size: 1.3em;
+	padding-left: 40px;
+}
+
+/** MODIFIER MOT DE PASSE **/
+#formulaireModifierMdp{
+	text-align: center;
+	margin: auto;
+}
+
+#formulaireModifierMdp table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#formulaireModifierMdp, #tableauModifierMdp{
+	margin: auto;
+}
+
+#formulaireModifierMdp .titreModifierMdp{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#modifierMdpButton input{
+	width: 150px;
+	margin-top: 15px;
+}
+
+.messageErreurModifierMdp{
+	color: #FF4B4B;
+}
+
+/** MODIFIER INFORMATIONS **/
+#formulaireModifierInformations{
+	text-align: center;
+	margin: auto;
+}
+
+#formulaireModifierInformations table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#formulaireModifierInformations, #tableauModifierInformations{
+	margin: auto;
+}
+
+#formulaireModifierInformations .titreModifierInformations{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#modifierInformationsButton input{
+	width: 150px;
+	margin-top: 15px;
+}
+
+.messageErreurModifierInformations{
+	color: #FF4B4B;
+}
+
+
+

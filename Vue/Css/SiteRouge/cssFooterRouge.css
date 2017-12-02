@@ -1,0 +1,78 @@
+footer{
+	height: 50px;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: white;
+}
+
+#developperpar{
+	font-family: Days;
+	color: #A60000;
+	width: 100%;
+}
+
+#facebook{
+	background-image: url(../../Images/Icones/facebook.png);
+}
+
+#twitter{
+	background-image: url(../../Images/Icones/twitter.png);
+}
+
+#uda{
+	background-image: url(../../Images/Icones/uda.png);
+}
+	
+/*********************CLAPETS****************/
+.padsGaucheF{ 
+	float:left;
+}
+
+.padsDroiteF{
+	float:right;
+}
+
+.padsDroiteF a{ 
+	display: inline-block;
+}
+
+#atwitter{
+	margin-left: -4px;
+}
+
+.hautF{
+	width: 50px;
+	float:inherit;
+	height: 50px;
+	transition:0.4s ease 0ms;
+	-moz-transition: height 0.4s ease 0ms;
+	-webkit-transition: all 0.4s ease 0ms;
+	-o-transition: height 0.4s ease 0ms;
+	opacity: 1;
+	transform-origin: 50% 0;
+}
+
+.hautF:hover{
+	transform:skewX(15deg) rotateX(65deg);
+	opacity:1.0;
+}
+
+.basF{
+width: 50px;
+float:inherit;
+height: 50px;
+transition:0.4s ease 0ms;
+-moz-transition: height 0.4s ease 0ms;
+-webkit-transition: all 0.4s ease 0ms;
+-o-transition: height 0.4s ease 0ms;
+opacity: 1;
+transform-origin:50% 100%;
+}
+
+.basF:hover{
+	transform:skewX(15deg) rotateX(65deg);
+	opacity:1.0;
+}

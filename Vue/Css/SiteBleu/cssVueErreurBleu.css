@@ -1,0 +1,14 @@
+#pageErreur{	
+	width:99%;
+	padding-top: 155px;
+	padding-bottom: 65px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#titreErreur{
+	font-family: Days;
+	font-size: 5em;
+	color: #FF4B4B;
+	text-align: center;
+}

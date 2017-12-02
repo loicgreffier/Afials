@@ -1,0 +1,148 @@
+#message{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+.messageErreurAjoutMessage{
+	font-family: Days;
+	font-size: 1.3em;
+}
+
+.messageErreurAjoutMessage td label{
+	color: #71FF71;
+}
+
+.nomSujet{
+	text-align: center;
+	font-size: 2.3em;
+	color: #004400;
+	font-family: Days;
+}
+
+#divRetourListeSujets{
+	width: 60%;
+	margin: auto;
+}
+
+#divRetourListeSujets a{
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+	color: white;
+	text-decoration: none;
+	font-family: Days;
+}
+
+#divRetourListeSujets a:hover{
+	background: #71FF71;
+}
+
+.informationsMessage{
+	text-align: left;
+	width: 62%;
+	margin: auto;
+	height: 35px;
+}
+
+.informationsMessage div{
+	display: inline-block;
+	height: 30px;
+}
+
+.pseudo{	
+	font-family: Days;
+	font-size: 1.3em;
+	color: #71FF71;
+	width: 70%;
+	text-align: left;
+}
+
+.horaire{
+	font-size: 1.4em;
+	color: #71FF71;
+	width: 23%;
+	font-family: Days;
+}
+
+.nbAvisFavorable{
+	font-size: 1.4em;
+	color: #71FF71;
+	font-family: Days;
+}
+
+.nbAvisFavorable p{
+	display: inline;
+}
+
+.iconeSupprimerMessage{
+	margin-left: 11px; 
+}
+
+.message{
+	width: 60%;
+	margin: auto;
+}
+
+.message p{
+	font-family: Days;
+	border: 1px solid #71FF71;
+	color: #004400;
+	text-align: justify;
+	padding: 5px 10px;
+}
+
+#repondre{
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+#repondre a{
+	text-decoration: none;
+	font-family: Days;
+	font-size: 1.4em;
+	color: #004400;
+	padding: 5px;
+}
+	
+#repondre a:hover{
+	color: #71FF71;
+	text-shadow: 1px 1px #FFC6C6;
+}
+
+#bouttonValiderAjoutMessage{
+	width: 100px;
+}
+
+#ajoutMessage{
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	background-image: url("../../Images/Backgrounds/BackgroundMessage.jpg");
+	margin: 20px auto;
+	box-shadow: 2px 3px 5px 4px black;
+}
+
+#formulaireAjoutMessage{
+	text-align: center;
+}
+
+#formulaireAjoutMessage table tr td{
+	font-family: Days;
+	color: white;
+}
+#tableauAjoutMessage{
+	margin: auto;
+}
+
+#tableauAjoutMessage textarea{
+	width: 580px;
+	max-width: 580px;
+	height: 170px;
+	max-height: 170px;
+}

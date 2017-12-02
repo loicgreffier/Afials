@@ -1,0 +1,167 @@
+#formations{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#listeEnseignants{
+	display: inline-block;
+	border: 1px solid #DC0000;
+	width: 19%;
+	margin-left: 5px;
+	margin-top: 51px;
+}
+	
+#titreListeEnseignants{
+	text-align: center;
+	font-family: Days;
+	color: #DC0000;
+}
+
+#tableauEnseignants{
+	text-align: center;
+	width: 100%;
+	font-family: Days;
+	font-size: 1.4em;
+	overflow: hidden;
+}
+
+#tableauEnseignants tr td {
+	overflow: hidden;
+}
+
+#tableauEnseignants a{
+	text-decoration: none;
+	color: #A60000;
+	overflow: hidden;
+}
+
+#tableauEnseignants a:hover{
+	color: #FF6767;
+}
+
+#nbPagesEnseignant{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+	padding-top: 5px;
+}
+
+#nbPagesEnseignant a{
+	text-decoration: none;
+	color: #A60000;
+}
+
+#nbPagesEnseignant a:hover{
+	text-decoration: none;
+	color: #FF6767;
+}
+
+/* Affichage */
+
+#presentationFormations{
+	margin-right: 5px;
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#nomEnseignant{
+	margin-right: 5px;
+	font-family: Days;
+	color: #A60000;
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+#imprimer{
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.tableauFormations{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+	border: 1px solid #A60000;
+	margin: 5px 0;
+}
+
+.nomFormation{
+	height: 20px;
+	font-size: 1.9em;
+	color: #FF6767;
+}
+
+.labelTypeFormation{
+	font-size: 1.1em;
+	color: #FF6767;
+	height: 30px;
+	width: 50%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.typeFormation{
+	font-size: 1.1em;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.descriptif{
+	text-align: justify;
+}
+
+.descriptif p{
+	margin: auto 20px;
+}
+
+.nbPagesFormation{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+}
+
+.nbPagesFormation a{
+	text-decoration: none;
+	color: #A60000;
+}
+
+.nbPagesFormation a:hover{
+	text-decoration: none;
+	color: #FF6767;
+}
+
+#noFormationsEnseignant{
+	text-align: center;
+	font-size: 2em;
+	font-family: Days;
+}
+
+#parametresFormation{
+	text-align: right;
+	height: 36px;
+	padding: 5px 0;
+}
+
+.consulteravis{
+	text-align: right;
+}
+
+.consulteravis a{
+	text-decoration: none;
+	color: white;
+	font-family: Days;
+	font-size: 0.9em;
+	background: linear-gradient(to bottom, #FF2525 0%, #A60000 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #A60000;
+}
+
+.consulteravis a:hover{
+	background: #FF6767;
+}
+

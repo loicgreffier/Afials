@@ -1,0 +1,19 @@
+#apropos{
+	width:99%;
+	padding-top: 155px;
+	padding-bottom: 65px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#titreAPropos{
+	color: #A60000;
+	font-size: 2em;
+	font-family: Days;
+}
+
+#listeDroits li{
+	color: #FF6767;
+	font-size: 1.6em;
+	font-family: Days;
+}

@@ -1,0 +1,60 @@
+#demandesInscription{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#titreDemande{
+	font-family: Days;
+	font-size: 1.5em;
+	color: #004400;
+	margin-left: 55px;
+}
+
+#tableauDemande{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#tableauDemande tr td{
+	border: 1px solid #71FF71;
+}
+
+.labelDemande{
+	font-family: Days;
+	font-size: 1.5em;
+	color: #004400;
+}
+
+.varDemande{
+	font-family: Days;
+	font-size: 1.3em;
+	color: #004400;
+	padding: 3px 0;
+}
+
+#telephone{
+	width: 14%;
+}
+
+#email{
+	width: 20%;
+}
+
+#prenom{
+	width: 32%
+}
+
+#nom{
+	width: 30%;
+}
+
+#noDemande{
+	font-size: 1.8em;
+	text-align: center;
+	color: #004400;
+	font-family: Days;
+}

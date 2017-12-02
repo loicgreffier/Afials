@@ -1,0 +1,248 @@
+/* Fonctionnalités */
+#mesFormations{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#blanket2{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterFormation, #modifierFormation{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background:#00001D;
+	display: block;
+}
+
+#ajouterTypeFormation{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background:#00001D;
+	display: block;
+}
+
+/* Ajout nouvelle formation */
+#formulaireAjoutFormation{
+	text-align: center;
+	margin-top: -30px;
+}
+#formulaireAjoutFormation table tr td{
+	font-family: Days;
+	color: #8D8DFF;
+}
+
+#tableauAjoutFormation .titreAjoutFormation{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#tableauAjoutFormation select{
+	border: 6px solid #5E5EFF;
+	margin-top: 5px;
+}
+
+.messageErreurAjoutFormation{
+	color: #FF4B4B;
+}
+
+/* Ajout nouveau type de formation */
+#formulaireAjoutTypeFormation{
+	text-align: center;
+	margin-top: -20px;
+}
+#formulaireAjoutTypeFormation table tr td{
+	font-family: Days;
+	color: #8D8DFF;
+}
+
+#tableauAjoutTypeFormation{
+	margin: auto;
+}
+
+#tableauAjoutTypeFormation #titreAjoutTypeFormation{
+	font-size: 1.7em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#tableauAjoutTypeFormation select{
+	border: 6px solid #8D8DFF;
+	margin-top: 5px;
+}
+
+.champAjoutFormation{
+	height: 40px;
+}
+
+.bouttonAjouterFormulaire{
+	width: 150px;
+}
+
+#descriptifFormation{
+	width: 580px;
+	max-width: 580px;
+	min-width: 580px;
+	height: 150px;
+	min-height: 150px;
+	max-height: 150px;
+}
+
+#inputNomFormation{
+	width: 580px;
+}
+
+#modifierNomFormation{
+	width: 580px;
+}
+
+#modifierDescriptifFormation{
+	width: 580px;
+	max-width: 580px;
+	min-width: 580px;
+	height: 150px;
+	min-height: 150px;
+	max-height: 150px;
+}
+
+/* FONCTIONS */
+#parametresFormation{
+	width: 100%;
+	text-align: right;
+}
+
+#parametresFormation ul li{
+	display: inline-block;
+	background: linear-gradient(to bottom, #00003F 0%, #00001D 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #00001D;
+}
+
+#parametresFormation ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+}
+
+#parametresFormation ul li:hover{
+	background: #5E5EFF;
+}
+
+#parametresFormation #titreMesFormations{
+	float: left;
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #00001D;
+	font-size: 1.5em;
+}
+/*** MES FORMATIONS ***/
+
+#tableauxMesFormations{
+	width: 98%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.divTableauFormation{
+	border: 1px solid #00001D;
+	margin-top: 5px;
+}
+
+.tableauFormations{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-family: Days;
+	position: relative;
+	bottom: 5px;
+}
+
+.iconeSupprimerFormation{
+	float: right;
+	margin: 10px;
+	margin-bottom: 0;
+}
+
+.nomFormation{
+	height: 60px;
+	font-size: 1.9em;
+	color: #5E5EFF;
+}
+
+.iconeSupprimerFormation{
+	width: 1%;
+}
+
+.labelTypeFormation{
+	font-size: 1.1em;
+	color: #5E5EFF;
+	height: 30px;
+	width: 50%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.typeFormation{
+	font-size: 1.1em;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.descriptif{
+	text-align: justify;
+}
+
+.descriptif p{
+	margin: auto 20px;
+}
+
+.nbPagesFormation{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+	padding-top: 15px;
+}
+
+.nbPagesFormation a{
+	text-decoration: none;
+	color: #00001D;
+}
+
+.nbPagesFormation a:hover{
+	text-decoration: none;
+	color: #5E5EFF;
+}
+
+#noFormations{
+	font-size: 2.5em;
+	font-family: Days;
+	text-align: center;
+	margin-top: 20px;
+}

@@ -1,0 +1,385 @@
+#blanket6{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterClasse, #ajouterUnEtudiant, #ajouterGroupeExistant, #ajouterPlusieursEleves{
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+#ajouterNotes{
+	position:fixed;
+	left: 30%;
+	top: 5%;
+	width: 700px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+#formulaireAjoutClasse{
+	text-align: center;
+	margin-top: -30px;
+}
+
+#formulaireAjoutClasse table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutClasse{
+	margin: auto;
+}
+
+#tableauAjoutClasse .titreAjoutClasse{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#tableauAjoutClasse select{
+	border: 2px solid #71FF71;
+	margin-top: 5px;
+}
+
+.messageErreurAjoutClasse{
+	color: #FF4B4B;
+}
+
+.labelAjoutClasse{
+	padding-top: 15px;
+}
+
+.bouttonAjouterFormulaire{
+	width: 150px;
+}
+
+.informationNoteMax{
+	position: relative;
+	left: 6px;
+	top: 2px;
+}
+
+#mesEleves{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+/* Paramètres mes élèves */
+#parametresEleves{
+	width: 100%;
+	text-align: right;
+}
+
+#parametresEleves ul li{
+	display: inline-block;
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+}
+
+#parametresEleves ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+}
+
+#parametresEleves ul li:hover{
+	background: #71FF71;
+}
+
+#parametresEleves #titreEleves{
+	float: left;
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.5em;
+}
+
+/** mes centres **/
+#listeCentreFormation{
+	border: 1px solid #004400;
+	width: 20%;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+#titreListeCentres{
+	text-align: center;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.4em;
+}
+
+.tableauCentre{
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+	margin-top: -15px;
+}
+
+.nomCentre{
+	height: 20px;
+}
+
+.nomCentre a{
+	text-decoration: none;
+	color: #004400;
+	font-family: Days;
+	font-size: 1.4em;
+}
+
+.nomCentre a:hover{
+	color: #71FF71;
+}
+
+#noCentre{
+	font-family: Days;
+	text-align: center;
+}
+
+#addCentre{
+	color: #004400;
+}
+
+#addCentre:hover{
+	color: #71FF71;
+}
+/** mes groupes **/
+#listeGroupe{
+	display: inline-block;
+	border: 1px solid #004400;
+	width: 14%;
+	margin-left: 5px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.tableauGroupe{
+	text-align: center;
+	font-family: Days;
+	margin-top: -15px;
+	width: 100%;
+}
+
+.nomGroupe{
+	height: 20px;
+	width: 100%;
+}
+
+.nomGroupe a{
+	text-decoration: none;
+	color: #004400;
+	font-family: Days;
+	font-size: 1.4em;
+}
+
+.nomGroupe a:hover{
+	color: #71FF71;
+}
+
+.suppGroupe{
+	float: right;
+}
+
+#noGroupe{
+	font-family: Days;
+	text-align: center;
+}
+
+/** mes eleves **/
+#listeEleves{
+	display: inline-block;
+	border: 1px solid #004400;
+	width: 64%;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+#titreListeEleves{
+	text-align: left;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.4em;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+#listeTableauxEleves{
+	text-align: center;
+	width: auto;
+}
+
+.tableauEleves{
+	font-family: Days;
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
+.nomEleve{
+	height: 20px;
+	color: #71FF71;
+}
+
+#parametresEleves2{
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 10px;
+	right: 5px;
+}
+
+#parametresEleves2 ul li{
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #004400;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+}
+
+#parametresEleves2 ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+	font-size: 0.90em;
+	padding: 3px 10px;
+}
+
+#parametresEleves2 ul li:hover{
+	background: #71FF71;
+}
+
+#noEleves{
+	font-family: Days;
+	text-align: center;
+}
+
+/** pages centre **/
+.nbPagesCentresFormation{
+	width: 20%;
+	text-align: center;
+	font-family: Days;
+	margin: auto;
+}
+
+.nbPagesCentresFormation a{
+	text-decoration: none;
+	color: #004400;
+}
+
+.nbPagesCentresFormation a:hover{
+	text-decoration: none;
+	color: #71FF71;
+}
+
+/** Ajouter un eleve **/
+#formulaireAjoutUnEtudiant{
+	text-align: center;
+	margin-top: -30px;
+}
+
+#formulaireAjoutUnEtudiant table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutUnEtudiant{
+	margin: auto;
+}
+
+#tableauAjoutUnEtudiant .titreAjoutUnEtudiant{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+.messageErreurAjoutUnEtudiant{
+	color: #FF4B4B;
+}
+
+.labelAjoutUnEtudiant{
+	padding-top: 15px;
+}
+
+.bouttonAjouterFormulaire{
+	width: 150px;
+}
+
+/** Ajouter un groupe existant **/
+#formulaireAjoutGroupeExistant{
+	text-align: center;
+	margin-top: -30px;
+}
+
+#formulaireAjoutGroupeExistanttable tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutGroupeExistant{
+	margin: auto;
+}
+
+#tableauAjoutGroupeExistant .titreAjoutGroupeExistant{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+/** Ajouter plusieurs elèves **/
+#formulaireAjoutPlusieursEleves{
+	text-align: center;
+	margin-top: -30px;
+}
+
+#formulaireAjoutPlusieursEleves tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+#tableauAjoutPlusieursEleves{
+	margin: auto;
+}
+
+#tableauAjoutPlusieursEleves .titreAjoutPlusieursEleves{
+	font-size: 1.4em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+.coloreeSpan{
+	color: #71FF71;
+}

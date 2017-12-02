@@ -1,0 +1,217 @@
+/** Formulaire **/
+#mesCF{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#blanket4{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterCentreFormation, #modifierCentreFormation{
+	position:fixed;
+	left: 35%;
+	width:500px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+#ajouterCentreFormationExistant{
+	position:fixed;
+	left: 37%;
+	width:500px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background: #004400;
+	display: block;
+}
+
+/* PARAMETRE */
+#parametresCF{
+	width: 100%;
+	text-align: right;
+}
+
+#parametresCF ul li{
+	display: inline-block;
+	background: linear-gradient(to bottom, #005800 0%, #004400 100%);
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	width: auto;
+	border: 1px solid #004400;
+}
+
+#parametresCF ul li a{
+	text-decoration: none;
+	font-family: Days;
+	color: white;
+}
+
+#parametresCF ul li:hover{
+	background: #71FF71;
+}
+
+#parametresCF #titreCF{
+	float: left;
+	background: none;
+	border: none;
+	font-family: Days;
+	color: #004400;
+	font-size: 1.5em;
+}
+
+/* TABLEAU DES FORMATIONS */
+#tableauCF{
+	width: 98%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid #004400;
+}
+
+#tableauCF .enteteTableauCF{
+	color: #71FF71;
+	font-family: Days;
+	margin: 0;
+	padding: 0;
+}
+
+#tableauCF .variableTableauCF{
+	font-family: Days;
+	color: #004400;
+	font-size: 0.9em;
+}
+
+#tableauCF .trVariableTableauCF{
+	border: 1px solid #004400;
+}
+
+#tableauCF .variableTableauCFChefCentre{
+	font-family: Days;
+}
+
+#tableauCF .variableTableauCFChefCentre a{
+	text-decoration: none;
+	color: #004400;
+	font-size: 0.9em;
+}
+
+#tableauCF .variableTableauCFChefCentre a:hover{
+	color: #71FF71;
+}
+
+.iconeSupprimerCentre{
+	width: 1%;
+}
+
+#noCF{
+	text-align: center;
+	font-size: 2em;
+	font-family: Days;
+	color: #004400;
+}
+
+.telEmail{
+	font-size: 0.6em;
+	font-family: Days;
+	color: #71FF71;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* AJOUT CENTRE FORMATION */
+.formulaireAjoutCentreFormation{
+	margin-top: -10px;
+}
+
+.formulaireAjoutCentreFormation table tr td{
+	font-family: Days;
+	color: #71FF71;
+}
+
+.formulaireAjoutCentreFormation table tr td input{
+	width: 250px;
+}
+
+.formulaireAjoutCentreFormation table tr td label{
+	text-align: right;
+}
+
+.tableauAjoutCentreFormation{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tableauAjoutCentreFormation #titreChefDeCentre{
+	font-size: 1.4em;
+	font-family: Days;
+	color: white;
+	padding-top: 10px;
+}
+
+.tableauAjoutCentreFormation #titreAjoutCentreFormation{
+	font-size: 1.4em;
+	font-family: Days;
+	color:white;
+}
+
+.tableauAjoutCentreFormation .titreChefChoix{
+	font-size: 1.1em;
+	font-family: Days;
+	color: #71FF71;
+	padding-top: 5px;
+}
+
+.tableauAjoutCentreFormation select{
+	border: 6px solid #71FF71;
+	margin-top: 5px;
+}
+
+.tableauAjoutCentreFormation .BouttonAjouterCentre{
+	padding-top: 10px;
+}
+
+.tableauAjoutCentreFormation .BouttonAjouterCentre input{
+	width: 100px;
+}
+
+.messageErreurAjoutCentreFormation{
+	color: #FF4B4B;
+}
+
+.nbPagesCentresFormation{
+	width: 100%;
+	text-align: center;
+	font-family: Days;
+}
+
+.nbPagesCentresFormation a{
+	text-decoration: none;
+	color: #004400;
+}
+
+.nbPagesCentresFormation a:hover{
+	text-decoration: none;
+	color: #71FF71;
+}
+
+.messageErreurAjoutCentreFormation label{
+	color: #FF4B4B;
+}

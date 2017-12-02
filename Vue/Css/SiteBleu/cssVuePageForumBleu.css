@@ -1,0 +1,112 @@
+#blanket9{
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterForum {
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background:#00001D;
+	display: block;
+}
+
+#pageForum{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#listeForums{
+	font-family: Days;
+	text-align: center;
+	font-size: 2.5em;
+	color: #00001D;
+}
+
+#fonctionsForum{
+	text-align: center;
+	list-style: none;
+}
+
+#fonctionsForum li a{
+	text-decoration: none;
+	border: 1px solid #00001D;
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	font-family: Days;
+	background: linear-gradient(to bottom, #00003F 0%, #00001D 100%);
+	color: white;
+	font-size: 1.2em;
+}
+
+#fonctionsForum li a:hover{
+	background: #5E5EFF;	
+}
+
+#tableauForums{
+	margin: auto;
+	padding-top: 15px;
+}
+
+#tableauForums tr td{
+	font-family: Days;
+	text-align: center;
+}
+
+#tableauForums tr td a{
+	text-decoration: none;
+	font-size: 2em;
+	color: #00001D;
+}
+
+#tableauForums tr td a:hover{
+	color: #5E5EFF;	
+}
+
+/** FORMULAIRE **/
+#formulaireAjoutForum{
+	text-align: center;
+	margin: auto;
+}
+
+#formulaireAjoutForum table tr td{
+	font-family: Days;
+	color: #5E5EFF;
+}
+
+#BouttonAjoutTitreForum{
+	width: 300px;
+}
+
+#BouttonAjouterForum{
+	width: 100px;
+	margin-top: 10px;
+}
+
+#formulaireAjoutForum #titreAjoutForum{
+	font-size: 1.7em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#tableauAjoutForum{
+	margin: auto;
+}
+
+.messageErreurAjoutForum{
+	color: #FF4B4B;
+}

@@ -1,0 +1,27 @@
+#contact{
+	width:99%;
+	padding-top: 155px;
+	padding-bottom: 65px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.titreContact{
+	font-family: Days;
+	font-size: 2em;
+	color: #A60000;
+}
+
+.tableauInfos{
+	padding: 10px 0;
+}
+
+.tableauInfos tr td{
+	font-family: Days;
+	font-size: 1.3em;
+	color: #FF6767;
+}
+
+.tableauInfos tr .nomEtudiant{
+	color: #A60000;
+}

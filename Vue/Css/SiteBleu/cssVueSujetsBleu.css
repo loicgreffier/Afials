@@ -1,0 +1,196 @@
+#blanket {
+	background: black;
+	opacity: 0.65;
+	position:absolute;
+	z-index: 9001;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 100%;
+}
+
+#ajouterSujet {
+	position:fixed;
+	left: 33%;
+	width:600px;
+	height:auto;
+	border: solid;
+	border-width: 1px;
+	z-index: 9002;
+	background:#00001D;
+	display: block;
+}
+
+.LabelAdd{
+	font-family: Days;
+	color:white;
+}
+
+.nomForum{
+	text-align: center;
+	color: #00001D;
+	font-size: 2.3em;
+	font-family: Days;
+	text-shadow: 2px 2px aquamarine;
+}
+
+.fonctions{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.fonctions li{
+	display: inline-block;
+	font-size: 1.4em;
+	padding: 0 30px;
+}
+
+.fonctions li a{
+	text-decoration: none;
+	border: 1px solid #00001D;
+	border-radius: 10px 10px 10px 10px;
+	padding: 1px 10px;
+	font-family: Days;
+	background: linear-gradient(to bottom, #00003F 0%, #00001D 100%);
+	color: white;
+	font-size: 0.9em;
+}
+
+.fonctions li a:hover{
+	background: #5E5EFF;	
+}
+
+.fermer{
+	display: block;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#formulaireAjoutSujet{
+	text-align: center;
+	margin-top: -30px;
+}
+#formulaireAjoutSujet table tr td{
+	font-family: Days;
+	color: #5E5EFF;
+}
+
+#BouttonAjouterSujet{
+	width: 100px;
+}
+
+#tableauAjoutSujet{
+	margin: auto;
+}
+
+#tableauAjoutSujet #titreAjoutSujet{
+	font-size: 1.7em;
+	height: 50px;
+	line-height: 0;
+	font-family: Days;
+	color:white;
+}
+
+#tableauAjoutSujet #champTitreSujet{
+	width: 580px;
+	margin-bottom: 10px;
+}
+
+#tableauAjoutSujet textarea{
+	width: 580px;
+	max-width: 580px;
+	height: 170px;
+	max-height: 170px;
+}
+
+#tableauAjoutSujet #bouttonValiderAjoutSujet{
+	width: 100px;
+}
+
+#tableauAjoutSujet .messageErreurAjoutSujet{
+	font-weight: bold;
+	font-family: Days;
+	display: inline-block;
+	padding: 0 40px;
+	color: #5E5EFF;
+}
+
+#tableauSujets{
+	width: 90%;
+	margin: 35px auto;
+	padding: 0;
+	text-align: center;
+}
+
+#tableauSujets #enteteTableauSujets td{
+	font-size: 1.6em;
+	color: #00001D;
+	font-weight: bold;
+	border: 1px solid #5E5EFF;
+	font-family: Days;
+}
+
+#tableauSujets #sujet{
+	width: 800px;
+}
+
+#tableauSujets #auteur{
+	width: 300px;
+}
+
+#sujettopic{
+	width:99%;
+	margin: auto;
+	padding-top: 155px;
+	padding-bottom: 65px;
+}
+
+#tableauSujets #dernierMessage{
+	width: 270px;
+}
+#tableauSujets .valeurTableauSujets td {
+	font-size: 1.3em;
+	color: #00001D;
+	padding: 5px 0;
+	border: 1px solid #5E5EFF;
+	font-family: Days;
+}
+
+#tableauSujets .valeurTableauSujets td a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#tableauSujets .valeurTableauSujets td a:hover{
+	text-shadow: 1px 1px 1px aquamarine, 2px 2px 2px rgba(0,0,0, 0.3);
+	color: #5E5EFF;
+}
+
+.nomSujet{
+	margin-right: 20px;
+}
+
+.numeroPage{
+	color: white;
+	padding: 0 7px;
+	display: inline;
+}
+
+.numerosPage{
+	text-align: center;
+}
+
+#noSujets{
+	font-family: Days;
+	font-size: 2em;
+	color: #00001D;
+	text-align: center;
+}
+
+
+	
+
+
+	

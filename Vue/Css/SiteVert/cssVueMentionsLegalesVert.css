@@ -1,0 +1,46 @@
+#titreMentionsLegales{
+	font-family: Days;
+	text-align: center;
+	font-size: 3em;
+	color: #004400;
+}
+
+.soustitreMentionsLegales{
+	font-family: Days;
+	font-size: 2em;
+	color: #004400;
+}
+
+#textCopy{
+	font-family: Days;
+	font-size: 1.3em;
+	color: #71FF71;
+}
+
+#mentionslegales{
+	width:99%;
+	padding-top: 155px;
+	padding-bottom: 65px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#tableauOvh{
+	border-collapse: collapse;
+}
+
+.titreMentions{
+	font-family: Days;
+	color: #004400;
+	font-size: 1.3em;
+	border: 1px solid #004400;
+	padding: 0 10px;
+}
+
+.texteMentions{
+	font-family: Days;
+	color: #71FF71;
+	font-size: 1.3em;
+	padding: 0 10px;
+	border: 1px solid #71FF71;
+}

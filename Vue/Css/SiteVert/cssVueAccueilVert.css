@@ -1,0 +1,155 @@
+@font-face{
+    font-family: "Days";
+    src: url('../Polices/Days.ttf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+	background-attachment:fixed;
+	margin: auto;
+	display:block;
+}
+
+#tableauDeBord{
+	width:99%;
+	padding-top: 155px;
+	padding-bottom: 65px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#banniereImages{
+	overflow: hidden;
+	width: 77%;
+	height: 300px;
+	border: 1px solid #004400;
+	float: right;
+}
+
+#banniereImages img{
+    display:block;
+    width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	height: inherit;
+	min-height: inherit;
+	max-height: inherit;
+}
+
+#messagesDefilant{
+	width: 100%;
+	padding: 5px 0;
+}
+
+#scrollup {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #004400;
+  height: 40px;
+  z-index: -10;
+}
+
+.headline {
+  position: absolute;
+  top: 210px;
+  font-family: Days;
+  font-size: 1.6em;
+  color: #71FF71;
+  width: 100%;
+  text-align: center;
+   z-index: -10;
+}
+
+.bonjour{
+	color: #004400;
+	text-shadow: 1px 1px 1px aquamarine;
+	font-size: 1.2em;
+	font-family: Days;
+	text-align: right;
+}
+
+#menu{
+	list-style: none;
+	font-family: Days;
+	border: 1px solid #004400;
+	width: 22%;
+	margin: 0;
+	padding: 0 5px;
+}
+
+#menu #titreMenu{
+	font-size: 2em;
+	text-align: center;
+	color: #71FF71;
+}
+
+#menu li{
+	font-size: 1.3em;
+	padding: 5px 0;
+	text-align: center;
+	color: #004400;
+}
+
+.crayon{
+	float: left;
+	padding-left: 20px;
+}
+
+#menu li a{
+	color: #004400;
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	color: #71FF71;
+}
+
+#menu #listeCouleursSite{
+	text-align: center;
+}
+
+.couleurSite{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0 2px;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#couleurRouge{
+	background: #FF0000;
+	border: 1px solid black;
+}
+
+#couleurBleu{
+	background: #0000D2;
+	border: 1px solid black;
+}
+
+#couleurViolet{
+	background: #7F007F;
+	border: 1px solid black;
+}
+
+#couleurJaune{
+	background: #FFFC00;
+	border: 1px solid black;
+}
+
+#couleurVert{
+	background: #178C00;
+	border: 1px solid black;
+}
+
+#couleurNoir{
+	background: black;
+	border: 1px solid black;
+}
+
+#bonjourPersonne{
+	text-align: center;
+	font-size: 0.9em;
+}
